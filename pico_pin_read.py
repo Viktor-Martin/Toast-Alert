@@ -1,3 +1,5 @@
+#This will need to be renamed to 'main.py' to run on power up of the Pi Pico.
+
 from machine import Pin, ADC
 from time import sleep
 PinV = ADC(26)
